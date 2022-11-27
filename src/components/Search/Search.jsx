@@ -1,9 +1,12 @@
 import React from "react";
+import SearchIcon from "./SearchIcon";
 
 const Search = () => {
   return (
     <>
-      <p>search</p>
+      <div className="search">
+        <SearchIcon />
+      </div>
     </>
   );
 };
